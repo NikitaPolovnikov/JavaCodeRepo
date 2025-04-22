@@ -4,6 +4,7 @@ import java.util.*;
 
 public class Main {
 
+<<<<<<< Updated upstream
     static ArrayList<Object> arrayList = new ArrayList<>();
     static Map <Object, Integer> resultMap = new HashMap<>();
     static Integer newValue;
@@ -22,6 +23,12 @@ public class Main {
     }
 
     public static void main(String[] args) {
+=======
+    public static void main(String[] args) {
+        ArrayList arrayList = new ArrayList<>();
+        Counter counter = new Counter();
+
+>>>>>>> Stashed changes
         arrayList.add(4);
         arrayList.add(4);
         arrayList.add(4);
@@ -31,8 +38,12 @@ public class Main {
         arrayList.add(66);
         arrayList.add(1);
 
+<<<<<<< Updated upstream
         Main test = new Main();
         test.counter(arrayList);
         System.out.println(resultMap);
+=======
+       System.out.println(counter.count(arrayList));
+>>>>>>> Stashed changes
     }
 }
